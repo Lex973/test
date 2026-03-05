@@ -8,8 +8,10 @@ function App() {
     console.log('user: ', user)
 
     function handleClick() {
-        alert('clicked')
+        const name = propmt('Введите имя: ')
+        alert(`Привет: ${name}`)
     }
+
   return (
     <>
         <h1>Привет!!</h1>
