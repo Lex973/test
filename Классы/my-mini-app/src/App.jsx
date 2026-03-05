@@ -13,7 +13,7 @@ function App() {
   return (
     <>
         <h1>Привет!!</h1>
-        <button onClick={handleClick}></button>
+        <button onClick={handleClick}>Click me!</button>
     </>
   )
 }
